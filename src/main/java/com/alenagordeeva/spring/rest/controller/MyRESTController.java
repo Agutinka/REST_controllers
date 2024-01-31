@@ -43,13 +43,4 @@ public class MyRESTController {
         return employee; //возвращается НЕ сам объект employee, а JSON, соответствующий этому объекту
     }
 
-    @ExceptionHandler //аннотация для метода, ответственного за обработку исключений
-    public ResponseEntity<EmployeeIncorrectData> hadleException(
-            NoSuchEmployeeException exception) {
-        EmployeeIncorrectData data = new EmployeeIncorrectData();
-        data.setInfo(exception.getMessage());
-
-        return new ResponseEntity<>(data, HttpStatus.NOT_FOUND);
-    }
-
 }
