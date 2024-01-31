@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.rest.configuration;
+package com.alenagordeeva.spring.rest.configuration;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.springframework.context.annotation.Bean;

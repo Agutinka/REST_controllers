@@ -1,6 +1,6 @@
-package com.zaurtregulov.spring.rest.dao;
+package com.alenagordeeva.spring.rest.dao;
 
-import com.zaurtregulov.spring.rest.entity.Employee;
+import com.alenagordeeva.spring.rest.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Queue;
 
 @Repository
 public class EmployeeDAOImpl implements EmployeeDAO {

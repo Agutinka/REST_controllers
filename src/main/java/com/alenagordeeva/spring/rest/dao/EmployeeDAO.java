@@ -1,6 +1,6 @@
-package com.zaurtregulov.spring.rest.dao;
+package com.alenagordeeva.spring.rest.dao;
 
-import com.zaurtregulov.spring.rest.entity.Employee;
+import com.alenagordeeva.spring.rest.entity.Employee;
 
 import java.util.List;
 
