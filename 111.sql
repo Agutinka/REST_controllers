@@ -11,7 +11,7 @@ CREATE TABLE employees (
 
 INSERT INTO my_db.employees (name, surname, department, salary)
 VALUES
-	('Zaur', 'Tregulov', 'IT', 500),
+	('Alena', 'Gordeeva', 'IT', 500),
 	('Oleg', 'Ivanov', 'Sales', 700),
 	('Nina', 'Sidorova', 'HR', 850);
 
