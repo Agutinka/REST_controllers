@@ -14,7 +14,7 @@ import java.beans.PropertyVetoException;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = "com.zaurtregulov.spring.rest")
+@ComponentScan(basePackages = "com.alenagordeeva.spring.rest")
 @EnableWebMvc
 @EnableTransactionManagement
 public class MyConfig {
@@ -38,7 +38,7 @@ public class MyConfig {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("com.zaurtregulov.spring.rest.entity");
+        sessionFactory.setPackagesToScan("com.alenagordeeva.spring.rest.entity");
 
         Properties hibernateProperties = new Properties();
         hibernateProperties.setProperty("hibernate.dialect",
